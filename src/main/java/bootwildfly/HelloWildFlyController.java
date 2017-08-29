@@ -12,7 +12,7 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-		Logger.info("sayHello is called");
+		LOGGER.info("sayHello is called");
         return ("Hello, Magnus SpringBoot app on Wildfly, v1");
     }
 }
